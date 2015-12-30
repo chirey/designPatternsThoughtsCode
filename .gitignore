@@ -4,6 +4,8 @@ ehthumbs.db
 
 #Classes file
 *.class
+.settings
+
 
 # Folder config file
 Desktop.ini
