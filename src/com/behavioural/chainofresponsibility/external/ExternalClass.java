@@ -7,7 +7,7 @@ import com.behavioural.chainofresponsibility.pattern.Input;
 public class ExternalClass {
 	
 	//Step 5 - creating a test client
-	public static void main (String args[]){
+	public static void main (String args[]){ 
 		
 		//Step 5.a - Obtain the manager
 		CORManagerClass manager = new CORManagerClass();
