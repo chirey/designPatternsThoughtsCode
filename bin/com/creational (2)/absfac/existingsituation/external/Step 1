@@ -1,4 +1,0 @@
-The external class used two product classes A and B and there were two situation identified by its member variable represented by values 1 and 2
-
-So for situation 1 external class requires to use ConcreteProductA1 and ConcreteProductB1 classes
-So for situation 2 external class requires to use ConcreteProductA2 and ConcreteProductB2 classes
