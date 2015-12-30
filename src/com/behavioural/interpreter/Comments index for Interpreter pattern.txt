@@ -1,0 +1,12 @@
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExpressionInterpreterClass.java(21): //Step 5.a	The ExpressionInterpreterClass obtains the expression to be reduced from the Context. 
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExpressionInterpreterClass.java(25): //Step 5.b	Finds out if the expression is complex or terminal
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExpressionInterpreterClass.java(31): //Step: 6a Reduction of the expression into smaller items.
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExpressionInterpreterClass.java(39): //Step 6.b - Use recursion to solve the rest of the expression.
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExpressionInterpreterClass.java(46): //Step 6.c - Join the results
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExpressionInterpreterClass.java(53): //Step 7 - 7.	If not complex, then evaluate using one of the terminal expressions interpreter.
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExternalSystemClass.java(7): //Step 1.	The ExternalSystemClass creates or obtains the ContextClass. 
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExternalSystemClass.java(11): //Step 2.	The ExternalSystemClass creates an ExpressionInterpreterClass
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExternalSystemClass.java(14): //Step 3.	The ExternalSystemClass passes the Context to ExpressionInterpreterClass
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExternalSystemClass.java(17): //Step 4.	The ExternalSystemClass invokes the interpret method the ExpressionInterpreterClass. 
+\Pattern\src\com\behavioural\interpreter\simplecalc\ExternalSystemClass.java(20): //Step 8:   Output the interpreted result.
+\Pattern\src\com\behavioural\interpreter\simplecalc\TerminalInterpreterClass.java(3): //Step 9 - Creation of the terminal interpreter class. Here instead of creating multiple terminal expressions we have combined the classes. 

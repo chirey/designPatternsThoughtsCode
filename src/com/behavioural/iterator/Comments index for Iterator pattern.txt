@@ -1,0 +1,5 @@
+\Pattern\src\com\behavioural\iterator\ConcreteIteratorClass.java(6): //Step 4 - ArrayList cannot be modified hence we are going the custom route.
+\Pattern\src\com\behavioural\iterator\CustomIteratorInterface.java(3): //Step 2.	Create an interface CustomIteratorInterface with the required traversal methods. The methods take no argument, their names are representative of their actions and they return Object. 
+\Pattern\src\com\behavioural\iterator\ExternalSystemClass.java(9): //Step 6.i - here we are creating the collection and inserting some values for 
+\Pattern\src\com\behavioural\iterator\ExternalSystemClass.java(26): //Step 6.ii Obtain the iterator
+\Pattern\src\com\behavioural\iterator\ExternalSystemClass.java(29): //Step 6.iii Navigate the collection

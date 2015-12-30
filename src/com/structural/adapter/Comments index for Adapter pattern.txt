@@ -1,0 +1,15 @@
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(9): * Step 2 - create the AdapterClass. 
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(15): // Step 4 : Use composition to get an object of the Adaptee Class
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(19): //Step 5 : initialize the instance of the adaptee class.
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(24): //Step 3 - Create the method with the intended method signature
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(27): //Step 6.c: Transform the input(s) as required
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(30): //Step 6.c The actual method takes a string so we convert the input into String
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(33): //Step 6.d invoke the actual method and receive the output
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(44): //Step 6.e: Transform the output, the output is a double, however a String is required. 
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(59): //Step 6.f - return the output having the right type
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(63): //Step 6.g - Do this for all the methods that require a new signature
+\Pattern\src\com\structural\adapter\external\AdapterClass.java(64): //Step 7 - Ensure that there is no duplication of methods between AdapterClass and AdapteeClass
+\Pattern\src\com\structural\adapter\external\ExternalClass.java(4): * Step 8: ExternalClass usess the Adapter class instead of the AdapteeClass.
+\Pattern\src\com\structural\adapter\external\ExternalClass.java(9): // Step 8.a : Import and define the AdapterClass to be used
+\Pattern\src\com\structural\adapter\external\ExternalClass.java(13): // Step 8.b - Acquire an AdapterClass, here we create it.
+\Pattern\src\com\structural\adapter\pattern\AdapteeClass.java(8): * Step 1 - Identify the adaptee class whose methods are not exactly what is required.

@@ -1,0 +1,23 @@
+\Pattern\src\com\behavioural\strategy\A1Class.java(3): //Step 2b - Creating the A1Class or strategy classes
+\Pattern\src\com\behavioural\strategy\A1Class.java(6): //Step 2b - the logic within the method is different from that in A2Class
+\Pattern\src\com\behavioural\strategy\A1Interface.java(4): //Step 2a - Create and interface defining methodA
+\Pattern\src\com\behavioural\strategy\A2Class.java(3): //Step 2b - Creating the A2Class or strategy classes
+\Pattern\src\com\behavioural\strategy\A2Class.java(6): //Step 2b - the logic within the method is different from that in A1Class
+\Pattern\src\com\behavioural\strategy\AClass.java(3): //Step 1 - Identifying the AClass
+\Pattern\src\com\behavioural\strategy\AClass.java(4): //Step 3c - AClass does not implement A1Interface or B1Interface
+\Pattern\src\com\behavioural\strategy\AClass.java(7): //Step 3a - Create the interface variables
+\Pattern\src\com\behavioural\strategy\AClass.java(12): //Step 1 - methodA changes the logic based on situation
+\Pattern\src\com\behavioural\strategy\AClass.java(14): //Step 3d - delegate the call to a1 variable
+\Pattern\src\com\behavioural\strategy\AClass.java(20): //Step 1 - methodB changes the logic based on situation
+\Pattern\src\com\behavioural\strategy\AClass.java(22): //Step 3d - delegate the call to a1 variable
+\Pattern\src\com\behavioural\strategy\AClass.java(27): //Step 3b - setter for a1 interface variable
+\Pattern\src\com\behavioural\strategy\AClass.java(31): //Step 3b - setter for b1 interface variable
+\Pattern\src\com\behavioural\strategy\B1Class.java(3): //Step 2b - Creating the B1Class or strategy classes FOR B1Interface
+\Pattern\src\com\behavioural\strategy\B1Class.java(6): //Step 2b - the logic within the method is different from that in B2Class
+\Pattern\src\com\behavioural\strategy\B1Interface.java(3): //Step 2a - Create and interface defining methodB
+\Pattern\src\com\behavioural\strategy\B2Class.java(3): //Step 2b - Creating the B2Class or strategy classes FOR B1Interface
+\Pattern\src\com\behavioural\strategy\B2Class.java(6): //Step 2b - the logic within the method is different from that in B1Class
+\Pattern\src\com\behavioural\strategy\ExternalClass.java(3): //Step 1 - this the external class
+\Pattern\src\com\behavioural\strategy\ExternalClass.java(7): //Step 4a - create the right behaviour, 
+\Pattern\src\com\behavioural\strategy\ExternalClass.java(12): //Step 4b - pass the right strategy to AClass
+\Pattern\src\com\behavioural\strategy\ExternalClass.java(17): //Step 4c - use the methods 

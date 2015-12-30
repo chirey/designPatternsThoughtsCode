@@ -1,0 +1,30 @@
+\Pattern\src\com\behavioural\chainofresponsibility\external\ExternalClass.java(9): //Step 5 - creating a test client
+\Pattern\src\com\behavioural\chainofresponsibility\external\ExternalClass.java(12): //Step 5.a - Obtain the manager
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\CORManagerClass.java(3): //Step 4 - Create the Manager CLASS
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\CORManagerClass.java(13): //Step 4.a Creating the handlers
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\CORManagerClass.java(17): //Step 4.b
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\CORManagerClass.java(22): //Step 4.c
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAbstractClass.java(3): // Step 2 - this is the handler base class which will enforce the rule that all handlers are going to have the same handler method signature.
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAbstractClass.java(7): //Step 2a, 2b, 2c 
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAbstractClass.java(11): //Step 2d we declare the concrete handlers
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAbstractClass.java(14): //Step 2e Note we have only a setter, we do not need a getter here
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAClass.java(3): //Step 3 - A handler class is created
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAClass.java(4): //Step 3a - we make the handler extend the HandlerAbstractClass
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAClass.java(10): //Step 3.b.i  - check if this HandlerClass is the one to handle the request
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAClass.java(13): //Step 3.b.i.1 - we can process the object
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAClass.java(23): //Step 3.b.i.2 - we send out the return type. 
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAClass.java(27): //Step 3.b.i.3 - we could send out the processed input
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAClass.java(29): // This step is optional
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAClass.java(32): //Completing step 3.b.i.2
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerAClass.java(36): //Step 3.b.iii - we chain the input to the next handler as this handler will not be the one to handle it
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerClass.java(3): //Step 3 - A handler class is created
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerClass.java(4): //Step 3a - we make the handler extend the HandlerAbstractClass
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerClass.java(10): //Step 3.b.i  - check if this HandlerClass is the one to handle the request
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerClass.java(13): //Step 3.b.i.1 - we can process the object
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerClass.java(20): //Step 3.b.i.2 - we send out the return type. 
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerClass.java(24): //Step 3.b.i.3 - we could send out the processed input
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerClass.java(26): // This step is optional
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerClass.java(29): //Completing step 3.b.i.2
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\HandlerClass.java(33): //Step 3.b.iii - we chain the input to the next handler as this handler will not be the one to handle it
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\Input.java(3): //Step 1 - We encapsulate the request, if the request object is trivial we need not encapsulate it and use primitives or existing objects depending uponn context
+\Pattern\src\com\behavioural\chainofresponsibility\pattern\Output.java(3): //Step 2 - We encapsulate the response, if the response object is trivial we need not encapsulate it and use primitives or existing objects or keep it just void depending uponn context

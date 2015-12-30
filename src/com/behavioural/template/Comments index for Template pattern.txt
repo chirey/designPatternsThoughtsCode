@@ -1,0 +1,12 @@
+\Pattern\src\com\behavioural\template\A1Class.java(3): //Step 4 - forming the concrete classes
+\Pattern\src\com\behavioural\template\A1Class.java(6): //Step 4.a override the necessary class
+\Pattern\src\com\behavioural\template\AClass.java(3): //Step 2 - identifying the class which have methods parts of which change, the method is methodA,
+\Pattern\src\com\behavioural\template\AClass.java(4): //Step 3.d.iv - making the base abstract
+\Pattern\src\com\behavioural\template\AClass.java(7): //Step 2c - this will be used by external system
+\Pattern\src\com\behavioural\template\AClass.java(11): //Step 3.d.i and 3.d.ii - uses and know the sequence of usage
+\Pattern\src\com\behavioural\template\AClass.java(26): //Step 3.d.iv - some methods are implementd, methodA3
+\Pattern\src\com\behavioural\template\ExternalClass.java(3): //Step 1 - identify the external class
+\Pattern\src\com\behavioural\template\ExternalClass.java(8): //Step 5.a.ii we do not want the External Class to know the concrete class.
+\Pattern\src\com\behavioural\template\ExternalClass.java(9): //Step 5.b - know the concrete class by the base class
+\Pattern\src\com\behavioural\template\ExternalClass.java(17): //Step 5.a.iv.
+\Pattern\src\com\behavioural\template\TestClass.java(6): //Step 5.b - This test class is created to pass NewSituationExternalClass a proper concrete class

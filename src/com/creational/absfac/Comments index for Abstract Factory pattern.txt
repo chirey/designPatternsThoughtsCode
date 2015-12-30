@@ -1,0 +1,45 @@
+\Pattern\src\com\creational\absfac\existingsituation\external\ExternalClass.java(17): //Step 5a - obtain the object of FactoryHelperClass
+\Pattern\src\com\creational\absfac\existingsituation\external\ExternalClass.java(20): //Step 5b - invoke the method to get factory, pass situation argument
+\Pattern\src\com\creational\absfac\existingsituation\external\ExternalClass.java(21): //Step 5c - receive the output as a factory interface (only) and not as any concrete factories.
+\Pattern\src\com\creational\absfac\existingsituation\external\ExternalClass.java(25): //Step 5d - receive the product classes again using their product interfaces rather than concrete products. 
+\Pattern\src\com\creational\absfac\existingsituation\external\ExternalClass.java(27): //Step 5e - Use the product objects
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS1Class.java(3): //Step 3a - Creating concrete factories
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS1Class.java(4): //Step 3d - Extract the factory interface
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS1Class.java(5): //Step 3e - Implement the factory interface
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS1Class.java(12): //Step 3b - proper product classes are instantiated
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS1Class.java(19): //Step 3b - getter to return the product objects
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS1Class.java(20): //Step 3c - product objects are returned using interfaces
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS2Class.java(3): //Step 3a - Creating concrete factories
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS2Class.java(4): //Step 3d - Extract the factory interface
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS2Class.java(5): //Step 3e - Implement the factory interface
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS2Class.java(12): //Step 3b - proper product classes are instantiated
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS2Class.java(18): //Step 3b - getter to return the product objects
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteFactoryS2Class.java(19): //Step 3c - product objects are returned using interfaces
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteProductA1Class.java(3): //Step 2a - extract the interface into ProductAInterface
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteProductA1Class.java(8): //Step 2c - logic is different compared to A2
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteProductA2Class.java(3): //Step 2b - Other product classes of type A were made to implement ProductAInterface
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteProductA2Class.java(8): //Step 2c - logic is different compared to A1
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteProductB1Class.java(3): //Step 2a - extract the interface into ProductBInterface
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteProductB1Class.java(8): //Step 2c - logic is different compared to B2
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteProductB2Class.java(3): //Step 2b - Other product classes of type B were made to implement ProductBInterface
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ConcreteProductB2Class.java(8): //Step 2c - logic is different compared to B1
+\Pattern\src\com\creational\absfac\existingsituation\pattern\FactoryHelperClass.java(3): //Step 4 - creating a factory class that returns the concrete factories 
+\Pattern\src\com\creational\absfac\existingsituation\pattern\FactoryInterface.java(3): //Step 3d - Extracted factory interface is named
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ProductAInterface.java(3): //Step 2a - The extracted interface was named as ProductAInterface
+\Pattern\src\com\creational\absfac\existingsituation\pattern\ProductBInterface.java(3): //Step 2a - The extracted interface was named as ProductBInterface
+\Pattern\src\com\creational\absfac\newsituation\external\NewSituationExternalClass.java(19): //Step 6e - we use the new factory
+\Pattern\src\com\creational\absfac\newsituation\external\NewSituationExternalClass.java(22): //Step 5b - invoke the method to get factory, pass situation argument
+\Pattern\src\com\creational\absfac\newsituation\external\NewSituationExternalClass.java(23): //Step 5c - receive the output as a factory interface (only) and not as any concrete factories.
+\Pattern\src\com\creational\absfac\newsituation\external\NewSituationExternalClass.java(27): //Step 5d - receive the product classes again using their product interfaces rather than concrete products. 
+\Pattern\src\com\creational\absfac\newsituation\external\NewSituationExternalClass.java(29): //Step 5e - Use the product objects
+\Pattern\src\com\creational\absfac\newsituation\pattern\ConcreteFactoryS3Class.java(9): ////Step 6b - the new concrete factory class
+\Pattern\src\com\creational\absfac\newsituation\pattern\ConcreteFactoryS3Class.java(16): //Step 3b - proper product classes are instantiated, notice we are using product 3
+\Pattern\src\com\creational\absfac\newsituation\pattern\ConcreteProductA3Class.java(5): //Step 6c.	Create new ProductClasses for this situation. 
+\Pattern\src\com\creational\absfac\newsituation\pattern\ConcreteProductA3Class.java(10): //Step 2c - logic is different compared to A1,A2
+\Pattern\src\com\creational\absfac\newsituation\pattern\ConcreteProductB3Class.java(5): //Step 2a - extract the interface into ProductBInterface
+\Pattern\src\com\creational\absfac\newsituation\pattern\ConcreteProductB3Class.java(10): //Step 2c - logic is different compared to B1,B2
+\Pattern\src\com\creational\absfac\newsituation\pattern\FactoryHelperS3Class.java(7): //Step 6a - the new factory helper class
+\Pattern\src\com\creational\absfac\newsituation\pattern\FactoryHelperS3Class.java(16): //Step 6d - Return the new factory for the new sitaution while delegate the call to old factory for old situataions
+\Pattern\src\com\creational\absfac\newsituation\pattern\FactoryHelperS3Class.java(18): //Step 6d- Return the correct factory for this new situation
+\Pattern\src\com\creational\absfac\newsituation\pattern\FactoryHelperS3Class.java(21): //Step 6d - delegate the call to previous old factories
+\Pattern\src\com\creational\absfac\newsituation\pattern\FactoryHelperS3Class.java(25): //Step 6d - delegate the call to previous old factories

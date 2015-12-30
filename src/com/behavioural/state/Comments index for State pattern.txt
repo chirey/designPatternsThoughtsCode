@@ -1,0 +1,23 @@
+\Pattern\src\com\behavioural\state\A1Class.java(3): //Step 3a - create the state classes
+\Pattern\src\com\behavioural\state\A1Class.java(4): //Step 3d - implement the state interface
+\Pattern\src\com\behavioural\state\A1Class.java(8): //Step 3b - making the state variable final
+\Pattern\src\com\behavioural\state\A1Class.java(9): //Step 3c - initializing it
+\Pattern\src\com\behavioural\state\A1Class.java(13): //Step 3e change the logic of the method
+\Pattern\src\com\behavioural\state\A1Class.java(19): //Step 3e change the logic of the method
+\Pattern\src\com\behavioural\state\A1Class.java(23): //Step 3f - remove all other variables and methods
+\Pattern\src\com\behavioural\state\A2Class.java(3): //Step 3a - create the state classes
+\Pattern\src\com\behavioural\state\A2Class.java(4): //Step 3d - implement the state interface
+\Pattern\src\com\behavioural\state\A2Class.java(7): //Step 3b - making the state variable final
+\Pattern\src\com\behavioural\state\A2Class.java(8): //Step 3c - initializing it
+\Pattern\src\com\behavioural\state\A2Class.java(12): //Step 3e change the logic of the method
+\Pattern\src\com\behavioural\state\A2Class.java(18): //Step 3e change the logic of the method
+\Pattern\src\com\behavioural\state\A2Class.java(21): //Step 3f - remove all other variables and methods
+\Pattern\src\com\behavioural\state\AClass.java(6): //Step 4a - the composition
+\Pattern\src\com\behavioural\state\AClass.java(16): //Step 5b - delegate the call to the state object
+\Pattern\src\com\behavioural\state\AClass.java(22): //Step 5b - delegate the call to the state object
+\Pattern\src\com\behavioural\state\AClass.java(36): //Step 5a - the swapping of the state
+\Pattern\src\com\behavioural\state\AClass.java(70): //Step 4b - the setter for the state variable
+\Pattern\src\com\behavioural\state\ExternalSystemClass.java(6): //Step 6 - instiatate and use AClass
+\Pattern\src\com\behavioural\state\ExternalSystemClass.java(9): //Step 6.a - change the value
+\Pattern\src\com\behavioural\state\ExternalSystemClass.java(10): //Step 6.b - invoke the method, the method will be different with different values and we are not using if-else loop within the method 	
+\Pattern\src\com\behavioural\state\StateInterface.java(3): //Step 2 - the method whose logic changes depending on state

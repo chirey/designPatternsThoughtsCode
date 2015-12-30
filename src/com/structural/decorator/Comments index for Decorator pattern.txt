@@ -1,0 +1,21 @@
+\Pattern\src\com\structural\decorator\DecoratedClass.java(3): //Step 1 - Identified that DecoratedClass is the one which require decoration.
+\Pattern\src\com\structural\decorator\DecoratedInterface.java(3): //Step 2 - Extract the interface from Decorator
+\Pattern\src\com\structural\decorator\DecoratorClass.java(3): //Step 3 - Create the decorated interface
+\Pattern\src\com\structural\decorator\DecoratorClass.java(4): //Step 3.c - Implement the DecoratedInteface
+\Pattern\src\com\structural\decorator\DecoratorClass.java(7): // Step 3a - Declare an object of the DecoratedClass.
+\Pattern\src\com\structural\decorator\DecoratorClass.java(12): // Step 3b - initialize the variable
+\Pattern\src\com\structural\decorator\DecoratorClass.java(17): // Step 4 - this method requires decoration
+\Pattern\src\com\structural\decorator\DecoratorClass.java(20): // Step 4.a - Add value step to input
+\Pattern\src\com\structural\decorator\DecoratorClass.java(22): //Step 4f - input transformation is done prior to delegation
+\Pattern\src\com\structural\decorator\DecoratorClass.java(28): // Step 4.b - delegate the call, use the transformed input
+\Pattern\src\com\structural\decorator\DecoratorClass.java(31): // Step 4.c - Add value to output
+\Pattern\src\com\structural\decorator\DecoratorClass.java(35): //Step 4f - output transformation is done after the delegation
+\Pattern\src\com\structural\decorator\DecoratorClass.java(37): // Step 4.d - Note that the transformation for input and output are
+\Pattern\src\com\structural\decorator\DecoratorClass.java(40): // Step 4.e - the final result after transformations of the input is
+\Pattern\src\com\structural\decorator\DecoratorClass.java(44): //Step 4.g - the final output is returned
+\Pattern\src\com\structural\decorator\DecoratorClass.java(48): //Step 5 - This method does not require decoration hence we just delegate the call and relay the output
+\Pattern\src\com\structural\decorator\ExternalClass.java(3): //Step 6 - example test class
+\Pattern\src\com\structural\decorator\ExternalClass.java(7): //Step 6.a - Create or obtain the decoratedObject
+\Pattern\src\com\structural\decorator\ExternalClass.java(10): //Step 6.b - create the decorator object. Pass the decorator object.
+\Pattern\src\com\structural\decorator\ExternalClass.java(13): //Step 6.c - use the decorator.
+\Pattern\src\com\structural\decorator\ExternalClass.java(16): //Step 6.d - example of double decoration

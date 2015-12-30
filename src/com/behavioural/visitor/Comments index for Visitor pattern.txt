@@ -1,0 +1,11 @@
+\Pattern\src\com\behavioural\visitor\AExistingClass.java(3): //Step 1.c.i - implement the VistorFrameworkInterface
+\Pattern\src\com\behavioural\visitor\AExistingClass.java(12): //Step 1.c.ii - ii.	Implement the accept() method.
+\Pattern\src\com\behavioural\visitor\AExistingClass.java(15): //Step 1.c.iii.	The call to execute(). Pass "this" reference
+\Pattern\src\com\behavioural\visitor\AExistingClass.java(20): //Step 1.c.iv.	Create appropriate getters for required variables.  
+\Pattern\src\com\behavioural\visitor\AVisitorClass.java(3): //Step 2a. Create concrete visitor class, implement VisitorInterface
+\Pattern\src\com\behavioural\visitor\AVisitorClass.java(7): //Step 2b. Create the logic for the new method.
+\Pattern\src\com\behavioural\visitor\ExternalClass.java(7): //Step 3.a - create the visitor
+\Pattern\src\com\behavioural\visitor\ExternalClass.java(10): //Step 3b.	We create an instance of the ExistingClass.
+\Pattern\src\com\behavioural\visitor\ExternalClass.java(17): //Step 3c - Call the method
+\Pattern\src\com\behavioural\visitor\VisitorInterface.java(3): //Step 1a - create the visitor interface
+\Pattern\src\com\behavioural\visitor\VistorFrameworkInterface.java(3): //Step 1a - create the VistorFrameworkInterface 

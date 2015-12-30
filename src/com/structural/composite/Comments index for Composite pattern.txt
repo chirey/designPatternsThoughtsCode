@@ -1,0 +1,10 @@
+\Pattern\src\com\structural\composite\AClass.java(3): //Step 1 - identify the classes which must be treated in the same way
+\Pattern\src\com\structural\composite\AClass.java(4): //Step 3 - implement the common interface
+\Pattern\src\com\structural\composite\ACommonInterface.java(3): //Step 2 - Creation of the interface
+\Pattern\src\com\structural\composite\ACommonInterface.java(8): //Step 4a - Added the exception to method signature
+\Pattern\src\com\structural\composite\BClass.java(17): //Step 6 - this method was originally not present in this class
+\Pattern\src\com\structural\composite\CClass.java(11): //Step 6 - this method was originally not present in this class
+\Pattern\src\com\structural\composite\ContextException.java(3): //Step 4b - simple custom exception
+\Pattern\src\com\structural\composite\ExternalClass.java(5): //Step 7.a - instantiate and use the object in the usual way
+\Pattern\src\com\structural\composite\ExternalClass.java(11): //Step 7.a - instantiate and use the object in the usual way
+\Pattern\src\com\structural\composite\ExternalClass.java(14): //Step 7.b - Handling of non supported operation

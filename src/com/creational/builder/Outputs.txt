@@ -1,0 +1,6 @@
+originalObject identified by hash704865519 has values 
+var1 = v1 value
+var2 = v2 value
+var3 = null
+var4 = null
+var5DependentOnVar1 = null

@@ -1,0 +1,27 @@
+\Pattern\src\com\creational\protoype\advanced\ExternalClassWithPrototypeManager.java(5): //Step 6a - this is the ExternalClass but does not use a PrototypeManager
+\Pattern\src\com\creational\protoype\advanced\ExternalClassWithPrototypeManager.java(14): //Step 6b - it creates one object
+\Pattern\src\com\creational\protoype\advanced\ExternalClassWithPrototypeManager.java(29): //Step 6a - using obtain() get a prototypeObject
+\Pattern\src\com\creational\protoype\advanced\ExternalClassWithPrototypeManager.java(34): //Step 6c - clone the object
+\Pattern\src\com\creational\protoype\advanced\ExternalClassWithPrototypeManager.java(37): //Step 6e - initialize the state as per the current situation. Here we assume we change only the state variables
+\Pattern\src\com\creational\protoype\advanced\ExternalClassWithPrototypeManager.java(39): //Step 6f - initialize the non state variables , we set them to null.
+\Pattern\src\com\creational\protoype\advanced\ExternalClassWithPrototypeManager.java(43): //Step 7 - Similarly repeat steps to obtain another object 
+\Pattern\src\com\creational\protoype\advanced\ExternalClassWithPrototypeManager.java(50): //Step 7 - Similarly repeat steps to obtain another object 
+\Pattern\src\com\creational\protoype\advanced\PrototypeMangerClass.java(7): //Step 5 - Create a prototype manager class to optimise creation
+\Pattern\src\com\creational\protoype\advanced\PrototypeMangerClass.java(10): //Step 5a - create a collection to store the objects
+\Pattern\src\com\creational\protoype\advanced\PrototypeMangerClass.java(24): //Step 5b - decide on the identity using which the objects would be retrieved and store in the collection.
+\Pattern\src\com\creational\protoype\advanced\PrototypeMangerClass.java(27): //Step 5d -  if prototype is found then that is used
+\Pattern\src\com\creational\protoype\advanced\PrototypeMangerClass.java(31): //Step 5e - if prototype is not found , we instantiate a new object 
+\Pattern\src\com\creational\protoype\advanced\PrototypeMangerClass.java(33): //Step 5.e.i - store it in the collection for future use
+\Pattern\src\com\creational\protoype\advanced\PrototypeMangerClass.java(39): //Step 5b - decide the identity based on which we store the collection.
+\Pattern\src\com\creational\protoype\simpleVersion\APrototypeClass.java(3): //Step 1 - Identify the class whose creating is a challenge
+\Pattern\src\com\creational\protoype\simpleVersion\APrototypeClass.java(4): //Step 2 - Ascertain if you can copy objects rather than creating them afresh
+\Pattern\src\com\creational\protoype\simpleVersion\APrototypeClass.java(5): //Step 3 - If copying makes sense, implement Cloneable
+\Pattern\src\com\creational\protoype\simpleVersion\APrototypeClass.java(48): //Step 4 - override the clone method, decide if you require shallow or deep clone.
+\Pattern\src\com\creational\protoype\simpleVersion\APrototypeClass.java(52): //Step 4a - avoid creating a new object here, it defeats the purpose
+\Pattern\src\com\creational\protoype\simpleVersion\ExternalClassWithoutPrototypeManager.java(2): //Step 6a - this is the ExternalClass but does not use a PrototypeManager
+\Pattern\src\com\creational\protoype\simpleVersion\ExternalClassWithoutPrototypeManager.java(10): //Step 6b - it creates one object
+\Pattern\src\com\creational\protoype\simpleVersion\ExternalClassWithoutPrototypeManager.java(21): //Step 6c - clone and then typecast to obtain the new object
+\Pattern\src\com\creational\protoype\simpleVersion\ExternalClassWithoutPrototypeManager.java(22): //Step 6d - clone will throw exception hence we have to enclose it in try-catch block or throw it
+\Pattern\src\com\creational\protoype\simpleVersion\ExternalClassWithoutPrototypeManager.java(25): //Step 6e - initialize the state as per the current situation. Here we assume we change only the state variables
+\Pattern\src\com\creational\protoype\simpleVersion\ExternalClassWithoutPrototypeManager.java(27): //Step 6f - initialize the non state variables , we set them to null.
+\Pattern\src\com\creational\protoype\simpleVersion\ExternalClassWithoutPrototypeManager.java(31): //Step 7 - Similarly repeat steps to obtain another object 

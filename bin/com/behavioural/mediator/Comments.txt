@@ -1,0 +1,20 @@
+In this example we show what was the situation before, this exists in the package named "before"
+the "after" package contains our design after we used mediator pattern
+
+//Step 1, 2, 3, and 4a
+The interaction sequence is 
+1. A one method a1method which calls method of B and then calls C
+2. B has a method which calls D in turn
+3. C has a method but does not call any methods of other classes.
+4. D has two methods
+    a. One looks similar to the method in A
+    b. D has a method which does not call methods of other classes.
+    
+//Step 4b
+Similiarity - we identify that a1method and d2method are repeated.
+
+//Step 4c
+Combination - we do not have any such methods in this example.
+
+
+

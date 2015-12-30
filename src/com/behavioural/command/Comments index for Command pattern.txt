@@ -1,0 +1,31 @@
+\Pattern\src\com\behavioural\command\external\ExternalClass.java(6): * Step 2 - This External class is the invoker, it would use the method of the some class. 
+\Pattern\src\com\behavioural\command\external\ExternalClass.java(8): * Next Step3 is in the command Interface  
+\Pattern\src\com\behavioural\command\external\ExternalClass.java(15): * Step 6a. create a command object which the NewSituationExternalClass will use
+\Pattern\src\com\behavioural\command\external\ExternalClass.java(19): * Step 6b. the constructor is used to initialise the command object.
+\Pattern\src\com\behavioural\command\external\ExternalInvokerClass.java(7): * Step 6. This is used to house the main method so that we have an executable program.
+\Pattern\src\com\behavioural\command\external\ExternalInvokerClass.java(18): * Step 6a. create an object of the CommandManagerClass type
+\Pattern\src\com\behavioural\command\external\ExternalInvokerClass.java(23): * Step 6b. the command object that is used by our invoke method to delegate the call. 
+\Pattern\src\com\behavioural\command\pattern\CommandInterface.java(4): * Step 3 - we create the command interface.
+\Pattern\src\com\behavioural\command\pattern\CommandInterface.java(5): * Note step 4 is in concrete command classes 
+\Pattern\src\com\behavioural\command\pattern\CommandInterface.java(12): //Step 3 - include a method that will be used to trigger the call
+\Pattern\src\com\behavioural\command\pattern\CommandInterface.java(16): * Step 4a.ii - include methods to get output
+\Pattern\src\com\behavioural\command\pattern\CommandInterface.java(22): * Step  4a.ii - include method to set input
+\Pattern\src\com\behavioural\command\pattern\CommandManagerClass.java(4): * Step 5 - The Command Manager is the class which bears the responsibility of creating the command
+\Pattern\src\com\behavioural\command\pattern\CommandManagerClass.java(9): * Note step 6 is in the NewSituationExternalClass once again
+\Pattern\src\com\behavioural\command\pattern\CommandManagerClass.java(17): * Step 5a. This class holds a command which it will give to others 
+\Pattern\src\com\behavioural\command\pattern\CommandManagerClass.java(22): * Step 5b. 
+\Pattern\src\com\behavioural\command\pattern\CommandManagerClass.java(33): * Step 5c. This is the constructor, 
+\Pattern\src\com\behavioural\command\pattern\ConcreteCommandClass.java(4): * Step 4 - This is to create all concrete command classes. 
+\Pattern\src\com\behavioural\command\pattern\ConcreteCommandClass.java(5): * Note Step 5 is in the command manager class.
+\Pattern\src\com\behavioural\command\pattern\ConcreteCommandClass.java(12): //Step 4a.i - these variables are the way to communicate from NewSituationExternalClass to the Receiver class 
+\Pattern\src\com\behavioural\command\pattern\ConcreteCommandClass.java(16): //Step 4b. using a receiver class. 
+\Pattern\src\com\behavioural\command\pattern\ConcreteCommandClass.java(21): //Step 4c. this is where the command 
+\Pattern\src\com\behavioural\command\pattern\ConcreteCommandClass.java(32): //Step 4d. the setter and getter methods to initialize the variables.
+\Pattern\src\com\behavioural\command\pattern\ReceiverA1Class.java(21): //Step 1 - this is the method that would be called by external class. 
+\Pattern\src\com\behavioural\command\pattern\ReceiverA1Class.java(23): //Note Step 2 is in the NewSituationExternalClass
+\Pattern\src\com\behavioural\command\pattern\ReceiverA2Class.java(21): //Step 1 - this is the method that would be called by external class. 
+\Pattern\src\com\behavioural\command\pattern\ReceiverA2Class.java(23): //Note Step 2 is in the NewSituationExternalClass
+\Pattern\src\com\behavioural\command\pattern\ReceiverB1Class.java(19): //Step 1 - this is the method that would be called by external class. 
+\Pattern\src\com\behavioural\command\pattern\ReceiverB1Class.java(21): //Note Step 2 is in the NewSituationExternalClass
+\Pattern\src\com\behavioural\command\pattern\ReceiverB2Class.java(18): //Step 1 - this is the method that would be called by external class. 
+\Pattern\src\com\behavioural\command\pattern\ReceiverB2Class.java(20): //Note Step 2 is in the NewSituationExternalClass

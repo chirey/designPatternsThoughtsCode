@@ -1,0 +1,22 @@
+\Pattern\src\com\behavioural\memento\CaretakerOrMementoManagerClass.java(5): //Step 4 - this is the Caretaker class 
+\Pattern\src\com\behavioural\memento\CaretakerOrMementoManagerClass.java(8): //Step 4a - a collection of mementoes, we can use generics here.
+\Pattern\src\com\behavioural\memento\CaretakerOrMementoManagerClass.java(11): //Step 4.b.i - add to collection
+\Pattern\src\com\behavioural\memento\CaretakerOrMementoManagerClass.java(18): //Step 4.b.ii - retrieve from the collection
+\Pattern\src\com\behavioural\memento\ExternalSystemClass.java(9): //Step 5.a - create a manager(s)
+\Pattern\src\com\behavioural\memento\ExternalSystemClass.java(13): //Step 5.b - obtain the originator classes - we create it here for simplicity.
+\Pattern\src\com\behavioural\memento\ExternalSystemClass.java(25): //Step 5.c.i - obtain a memento - emp1.retrieve()
+\Pattern\src\com\behavioural\memento\ExternalSystemClass.java(26): //Step 5.c.ii - store it in the collection
+\Pattern\src\com\behavioural\memento\ExternalSystemClass.java(47): //Step 5.d.i - retrieve the memento
+\Pattern\src\com\behavioural\memento\ExternalSystemClass.java(48): //Step 5.d.ii - restore the originator 
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(6): //Step 1 - this is our Originator Class
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(7): //Step 3.a implements MementoInterface
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(10): //Step 1 - Decide which are state variables
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(30): //Step 2.b - Make this an inner class
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(33): //Step 2a - encapsulate the state variables
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(34): //Step 2.c - make it all private
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(37): //Step 2.e the constructor 
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(44): //Step 2.d - Remove any getters and setters
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(93): //Step 3.b.i - restores current object with the values from the memento object
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(97): //Step 3.b.ii.1.a - restoring values
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(102): //Step 3.b.ii.1.b - restore the other variables using map or set them to default. We for simplicity set it to null.
+\Pattern\src\com\behavioural\memento\OriginatorEmployeeClass.java(108): //Step 3.b.i - gives the caller a memento object

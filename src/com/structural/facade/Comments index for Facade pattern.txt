@@ -1,0 +1,17 @@
+\Pattern\src\com\structural\facade\external\NewExternalClass.java(5): //Step7 - This is our new external class.
+\Pattern\src\com\structural\facade\external\NewExternalClass.java(10): // Step 1.a - Acquire the classes, now it requires only one class the
+\Pattern\src\com\structural\facade\external\NewExternalClass.java(18): // Step 7.a - calls many methods of the facade
+\Pattern\src\com\structural\facade\external\NewExternalClass.java(24): // Step 7.b - we find a method chain.
+\Pattern\src\com\structural\facade\external\PreviousExternalClass.java(7): //Step1 - This was our previous external class.
+\Pattern\src\com\structural\facade\external\PreviousExternalClass.java(12): //Step 1.a - Acquire the classes
+\Pattern\src\com\structural\facade\external\PreviousExternalClass.java(17): //Step 1.c - calls many methods of the classes directly
+\Pattern\src\com\structural\facade\external\PreviousExternalClass.java(23): //Step 1.d - we find a method chain.
+\Pattern\src\com\structural\facade\external\PreviousExternalClass.java(27): //Step 2 - We identify methodA1, methodA2, methodB3 and the methodC2 are the candidates.
+\Pattern\src\com\structural\facade\pattern\AClass.java(6): //Step 1.b - each of AClass, AClass and AClass has many methods having different signatures. 
+\Pattern\src\com\structural\facade\pattern\AClass.java(8): //Step 6 - we do not make this classes protected as we do not require to restrict the access.
+\Pattern\src\com\structural\facade\pattern\BClass.java(7): //Step 1.b - each of AClass, AClass and AClass has many methods having different signatures. 
+\Pattern\src\com\structural\facade\pattern\CClass.java(5): //Step 1.b - each of AClass, AClass and AClass has many methods having different signatures. 
+\Pattern\src\com\structural\facade\pattern\FacadeClass.java(3): //Step 3 - Create the Facade class
+\Pattern\src\com\structural\facade\pattern\FacadeClass.java(6): // Step 5 - Acquire the classes, same as Step 1.a, it now resides here.
+\Pattern\src\com\structural\facade\pattern\FacadeClass.java(11): // Step 3.a - Targeting the method chain first. Creating broader functionality
+\Pattern\src\com\structural\facade\pattern\FacadeClass.java(14): //Step 3.a.ii - delegate the calls to actual classes and in the required sequence.

@@ -1,0 +1,25 @@
+\Pattern\src\com\structural\bridge\external\ExternalClass.java(14): // Step 7 - obtain the right model and right concrete logic interface
+\Pattern\src\com\structural\bridge\external\ExternalClass.java(18): // Step 7.b Initialize the model class with the right logic class.
+\Pattern\src\com\structural\bridge\external\ExternalClass.java(21): // Step 7.c more than one interface so initialize those too.
+\Pattern\src\com\structural\bridge\external\ExternalClass.java(25): // Step 7.d. Finally, use the model class.
+\Pattern\src\com\structural\bridge\pattern\A1LogicConcreteClass.java(3): //Step 3a - move the logic from the base class to the logic classes such as this class A1LogicConcreteClass
+\Pattern\src\com\structural\bridge\pattern\A1LogicConcreteClass.java(4): //Step 3b - Group the methods and create separate classes just holding the logic for the methods
+\Pattern\src\com\structural\bridge\pattern\A1LogicConcreteClass.java(5): //Step 3e - Extract the interface and make the logic class implement the interface. 
+\Pattern\src\com\structural\bridge\pattern\A1LogicConcreteClass.java(8): //Step 3c - note that these method signature are different from the methods in the model classes
+\Pattern\src\com\structural\bridge\pattern\A1LogicConcreteClass.java(10): //Step 3.d - the difference in signature is to make sure the logic method signature fits the context and not dictated by the user of the methods (such as the model class)
+\Pattern\src\com\structural\bridge\pattern\A2LogicConcreteClass.java(3): //Step 4 - these are other logic classes, these create the logic classes hierarchy
+\Pattern\src\com\structural\bridge\pattern\A3LogicConcreteClass.java(3): //Step 4 - these are other logic classes, these create the logic classes hierarchy
+\Pattern\src\com\structural\bridge\pattern\A3LogicConcreteClass.java(5): //Step 4.a - Note this Logic class does not implement the LogicInterface but extends from A2LogicConcreteClass
+\Pattern\src\com\structural\bridge\pattern\ALogicInterface.java(3): //Step 3 - group the available logic, extract
+\Pattern\src\com\structural\bridge\pattern\ModelASubClass.java(3): //Step 1.b - Identify that the methods in the subclasses which do similar tasks 
+\Pattern\src\com\structural\bridge\pattern\ModelASubClass.java(4): //Step 1.c - but the logic is different and based on the context 
+\Pattern\src\com\structural\bridge\pattern\ModelASubClass.java(7): //Step 1.e - We anticipate in future we would require more subclasses with about the same logic but bit different for a new situation in the context and so on.
+\Pattern\src\com\structural\bridge\pattern\ModelASubClass.java(9): //Step 2.c - after creating the base class we extend this class from base
+\Pattern\src\com\structural\bridge\pattern\ModelOrAbstractionOrBaseClass.java(3): //Step 1.a - Identify the hierarchy of model classes. Here we identify that 
+\Pattern\src\com\structural\bridge\pattern\ModelOrAbstractionOrBaseClass.java(6): //Step 2 - Create the base class
+\Pattern\src\com\structural\bridge\pattern\ModelOrAbstractionOrBaseClass.java(7): //Step 2.b - move the common methods to the base class (the signature is common/same but the logic was different)
+\Pattern\src\com\structural\bridge\pattern\ModelOrAbstractionOrBaseClass.java(10): //Step 5a - a variable of the logic interface
+\Pattern\src\com\structural\bridge\pattern\ModelOrAbstractionOrBaseClass.java(15): //Step 5.b - setter for the interface variable
+\Pattern\src\com\structural\bridge\pattern\ModelOrAbstractionOrBaseClass.java(27): //Step 5.c.ii - input transformation
+\Pattern\src\com\structural\bridge\pattern\ModelOrAbstractionOrBaseClass.java(30): //Step 5.c.i - delegation to a concrete logic class
+\Pattern\src\com\structural\bridge\pattern\ModelOrAbstractionOrBaseClass.java(33): //Step 5.c.ii - output transformation steps if required, in this case it is not so we just return the output.

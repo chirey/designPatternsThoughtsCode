@@ -1,0 +1,13 @@
+Call 1 - calling a1method with 2 as input
+In a1method, calling b1method with input = 2.0
+In d1method, input is 2.0 and returning float interpretation of the string
+In method b1method trimming float to int
+Output = Squared using c1method output = 4
+
+
+Call 2 - calling d2method with 5.0 as input
+In d2method, calling b1method with input = 5.0
+In d1method, input is 5.0 and returning float interpretation of the string
+In method b1method trimming float to int
+In d2method, calling c1method with input = 5
+Output = Squared using c1method output = 25

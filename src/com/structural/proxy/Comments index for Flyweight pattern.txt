@@ -1,0 +1,32 @@
+\Pattern\src\com\structural\flyweight\after\ABreedingClass.java(3): //Step 1 - Identified that objects of ABreedingClass is taking up much of heap space. 
+\Pattern\src\com\structural\flyweight\after\ABreedingClass.java(4): //Step 2 - Identified that var1, var2 are mostly common within its objects, rest varies.
+\Pattern\src\com\structural\flyweight\after\ABreedingClass.java(7): // Step 4a - change the class, remove the intrinsic variables and use the
+\Pattern\src\com\structural\flyweight\after\ABreedingClass.java(15): //Step 4.e - usage of extrinsic variables stays the same
+\Pattern\src\com\structural\flyweight\after\ABreedingClass.java(20): // Step 4b create the intrisic class variable
+\Pattern\src\com\structural\flyweight\after\ABreedingClass.java(23): // Step 4.c we use the constructor to initialize the instrinsic variable
+\Pattern\src\com\structural\flyweight\after\ABreedingClass.java(26): // Step 4a - all these code have gets removed as the variables are not
+\Pattern\src\com\structural\flyweight\after\ABreedingClass.java(35): //Step 4a - all these code have gets removed as the variables are not there
+\Pattern\src\com\structural\flyweight\after\ABreedingClass.java(64): //Step 4.d to use var1 and var2 we use the getters of intrinsic object
+\Pattern\src\com\structural\flyweight\after\AIntrinsicDataClass.java(3): //Step 2 - created the class holding the intrinsic variables.
+\Pattern\src\com\structural\flyweight\after\AIntrinsicDataClass.java(16): //Step 3b - getters and setters for these variables
+\Pattern\src\com\structural\flyweight\after\AIntrinsicDataClass.java(33): //Step 3.c - the getKey method, it should take all the intrinsic variables and give the key. The type of key can be anything relevant int he design. 
+\Pattern\src\com\structural\flyweight\after\AIntrinsicDataClass.java(35): //Step 3.d - make it static
+\Pattern\src\com\structural\flyweight\after\ExternalClass.java(12): //Step 6.a - Acquire the instance	
+\Pattern\src\com\structural\flyweight\after\ExternalClass.java(19): //Step 6.b - time has come to use the pattern, for we are instantiating an object of the breeding class. 
+\Pattern\src\com\structural\flyweight\after\ExternalClass.java(20): //Step 6.b.i - instead of invoking new we obtain it from the instantiator
+\Pattern\src\com\structural\flyweight\after\ExternalClass.java(23): //Step 6.ii - pass the object to the constructor of ABreedingClass, thus the intrinsic data are not created afresh but we reuse them.
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(6): //Step 5.a - Making the class singleton
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(9): //Step 5.a - Making the class singleton
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(14): //Step 5.a - Making the class singleton
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(22): //Step 5.b - create the collection
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(26): //Step 5.c - removing the getter and setter for the collection, other classes should not require this object
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(32): //Step 5.d - the obtain methods, for a BreedingClass it takes the intrinsic values of the class as inputs, and gives back the intrinsic object.
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(33): //Step 5.d.i - Note that it takes intrinsic values directly and not any aIntrinsicObject, as we require to cut down the creation of the aIntrinsicObject 
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(35): //Step 5.d.ii - obtain the Key for these variables, use the static method getKey
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(41): //Step 5.d.iii - find the intrinsic object inthe collection
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(45): //Step 5.d.iii.2.a - if not found create a new one. 
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(48): //Step 5.d.iii.2.b - store the object
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(52): //Step 5.d.iv - Return the intrinsic object
+\Pattern\src\com\structural\flyweight\after\InstantiatorClass.java(56): //Step 5.e - other obtain methods - create other intrinsic class, name it properly, create proper collection, name the obtain method appropriately to signify which collection it works upon. 
+\Pattern\src\com\structural\flyweight\before\ABreedingClass.java(2): //Step 1 - Identified that objects of ABreedingClass is taking up much of heap space. 
+\Pattern\src\com\structural\flyweight\before\ABreedingClass.java(3): //Step 2 - Identified that var1, var2 are mostly common within the objects, rest varies.

@@ -1,0 +1,16 @@
+\Pattern\src\com\creational\builder\ABuilderClass.java(3): //Step 3 - Creating a builder class
+\Pattern\src\com\creational\builder\ABuilderClass.java(6): //Step 3a - a variable of the original class which we are trying to build
+\Pattern\src\com\creational\builder\ABuilderClass.java(9): //Step 3b - the default constructor initializes a blank original object
+\Pattern\src\com\creational\builder\ABuilderClass.java(14): //Step 3.c.i - The new setter methods, returns an object of the builder class and not original class.
+\Pattern\src\com\creational\builder\ABuilderClass.java(16): //Step 3.c.ii - Reuse the setter of originalClass
+\Pattern\src\com\creational\builder\ABuilderClass.java(18): //Step 3.c.iii - Initialize the dependent variables, reuse as much logic as possible from original class
+\Pattern\src\com\creational\builder\ABuilderClass.java(24): //Step 3.c.iv - var2 and var3 are related as per (say) some context so instead of having two setter methods, we combine the setter methods.
+\Pattern\src\com\creational\builder\ABuilderClass.java(31): //Step 3.d - intialize the independent variables
+\Pattern\src\com\creational\builder\ABuilderClass.java(37): //Step 4 - create the build method, it is the only method in BuilderClass which returns an OriginalObject
+\Pattern\src\com\creational\builder\ABuilderClass.java(39): //Step 4a. Check if the object is initialized correctly
+\Pattern\src\com\creational\builder\ABuilderClass.java(42): //Step 4.b -returning the original object, which si properly done
+\Pattern\src\com\creational\builder\ExternalClass.java(18): //Step 5a - the new way of getting Original Object initialized. Obtain a builder class.
+\Pattern\src\com\creational\builder\ExternalClass.java(25): //Step 5b - call only those methods (using method chaining) of builderObject that are required to initialize the object.
+\Pattern\src\com\creational\builder\ExternalClass.java(27): //Step 5c - finally call the build method
+\Pattern\src\com\creational\builder\OriginalClass.java(3): //Step1 - identify the class which has multiple variables and multiple constructors
+\Pattern\src\com\creational\builder\OriginalClass.java(17): //Step 2 - removing all constructors

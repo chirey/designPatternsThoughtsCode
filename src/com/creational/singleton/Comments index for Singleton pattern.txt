@@ -1,0 +1,12 @@
+\Pattern\src\com\creational\singleton\external\ExternalClass.java(6): * Step: define how external classes will use the singleton. 
+\Pattern\src\com\creational\singleton\external\ExternalClass.java(12): //Step 7a - create an object to use
+\Pattern\src\com\creational\singleton\external\ExternalClass.java(16): // Step7b obtain the instance
+\Pattern\src\com\creational\singleton\pattern\ASingletonClass.java(4): * Step 1 - Created the singleton without Singleton pattern implemented. Note this is put in a separate package to make
+\Pattern\src\com\creational\singleton\pattern\ASingletonClass.java(13): // Step 2: make this private so that no one can access it.
+\Pattern\src\com\creational\singleton\pattern\ASingletonClass.java(16): //Step 4.a.ii - create all the objects that the singleton requries and protects.
+\Pattern\src\com\creational\singleton\pattern\ASingletonClass.java(19): // Step 3: create a handle for the instance
+\Pattern\src\com\creational\singleton\pattern\ASingletonClass.java(24): //Step4 - create the standard getInstance()
+\Pattern\src\com\creational\singleton\pattern\ASingletonClass.java(26): // Step 4.a - we just check if the instance is initialised
+\Pattern\src\com\creational\singleton\pattern\ASingletonClass.java(30): ; //Step 4.a.ii do nothing
+\Pattern\src\com\creational\singleton\pattern\ASingletonClass.java(31): //Step 4.b - return the object
+\Pattern\src\com\creational\singleton\pattern\ASingletonClass.java(35): /*Step 5 The setter and getters are commented

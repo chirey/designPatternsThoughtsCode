@@ -1,0 +1,33 @@
+\Pattern\src\com\behavioural\mediator\Comments.txt(4): //Step 1, 2, 3, and 4a
+\Pattern\src\com\behavioural\mediator\Comments.txt(13): //Step 4b
+\Pattern\src\com\behavioural\mediator\Comments.txt(16): //Step 4c
+\Pattern\src\com\behavioural\mediator\after\AClass.java(9): //Step 6.d - Clean up the class
+\Pattern\src\com\behavioural\mediator\after\AClass.java(13): //Step 6.a - Define the mediator
+\Pattern\src\com\behavioural\mediator\after\AClass.java(17): //Step 6.d - Clean up the class
+\Pattern\src\com\behavioural\mediator\after\AClass.java(25): //Step 6.c - use the mediatorObject
+\Pattern\src\com\behavioural\mediator\after\AClass.java(28): //Step 6.c.1 - create the input object. 
+\Pattern\src\com\behavioural\mediator\after\AClass.java(33): //Step 6.c.ii and iii - Delegate the call. 
+\Pattern\src\com\behavioural\mediator\after\AClass.java(34): //Step 6.a - Initialize the mediator, 
+\Pattern\src\com\behavioural\mediator\after\AClass.java(38): //Step 6.c.iv - Obtain the output from within the input output class.
+\Pattern\src\com\behavioural\mediator\after\BClass.java(6): //Step 6.e - Doing the same for other classes. 
+\Pattern\src\com\behavioural\mediator\after\BClass.java(13): // Step 6.a - Define the mediator
+\Pattern\src\com\behavioural\mediator\after\BClass.java(28): // Step 6.c.1 - create the input object.
+\Pattern\src\com\behavioural\mediator\after\BClass.java(33): // Step 6.c.ii and iii - Delegate the call.
+\Pattern\src\com\behavioural\mediator\after\BClass.java(35): // Step 6.a - Acquire the mediator prior to use and delegate the call
+\Pattern\src\com\behavioural\mediator\after\BClass.java(39): // Step 6.c.iv - Obtain the output from within the input output class.
+\Pattern\src\com\behavioural\mediator\after\BClass.java(49): // Step 6.b - Instantiate or acquire it.
+\Pattern\src\com\behavioural\mediator\after\CClass.java(8): //Step 6.a, b - We do not require the mediator here so omit the definitiona and intialization
+\Pattern\src\com\behavioural\mediator\after\DClass.java(8): //Step 6.a - Define the mediator
+\Pattern\src\com\behavioural\mediator\after\DClass.java(17): // Step 6.b - here we find similiarity and reuse the existing bAndCmethod of the mediator
+\Pattern\src\com\behavioural\mediator\after\DClass.java(25): // Step 6.a - Instantiate or acquire it. In this case we do so here prior to use it.
+\Pattern\src\com\behavioural\mediator\after\pattern\InOutClass.java(3): // Step 4.d - decide the input and output classes
+\Pattern\src\com\behavioural\mediator\after\pattern\InOutClass.java(39): //Step 5.c - create transformations as required.
+\Pattern\src\com\behavioural\mediator\after\pattern\MediatorClass.java(7): //Step 5 - Create the MediatorClass class
+\Pattern\src\com\behavioural\mediator\after\pattern\MediatorClass.java(14): //Step 5.d - create the required objects
+\Pattern\src\com\behavioural\mediator\after\pattern\MediatorClass.java(25): //Step 5.a - bring the methods beloging to individual classes on to this class. Name appropriately
+\Pattern\src\com\behavioural\mediator\after\pattern\MediatorClass.java(26): //Step 5.b - change the input and output arguments to take in the general input and output holder class.
+\Pattern\src\com\behavioural\mediator\after\pattern\MediatorClass.java(33): //Step 5.c - c.	The method of this class will use the variables within the input output classes to acquire and return data.
+\Pattern\src\com\behavioural\mediator\after\pattern\MediatorClass.java(38): //Step 5.b - change the input and output arguments to take in the general input and output holder class.
+\Pattern\src\com\behavioural\mediator\after\pattern\MediatorClass.java(44): //Step 5.c - set the output with the input output classes, return the output
+\Pattern\src\com\behavioural\mediator\after\pattern\MediatorClass.java(50): //Repeat steps 
+\Pattern\src\com\behavioural\mediator\after\pattern\MediatorClass.java(53): //Step 5.b - change the input and output arguments to take in the general input and output holder class.

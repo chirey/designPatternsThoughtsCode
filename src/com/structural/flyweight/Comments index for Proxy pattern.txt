@@ -1,0 +1,15 @@
+\Pattern\src\com\structural\proxy\ExternalClass.java(3): //Step 6 - The external class
+\Pattern\src\com\structural\proxy\ExternalClass.java(5): //Step 6.a - know the class by the interface
+\Pattern\src\com\structural\proxy\ExternalClass.java(8): //Step 6.b - creating the setter function
+\Pattern\src\com\structural\proxy\ExternalClass.java(17): //Step 6.c - use the methods as required
+\Pattern\src\com\structural\proxy\OriginalClass.java(3): //Step 1 - Identified OriginalClass as the class which requires a proxy
+\Pattern\src\com\structural\proxy\OriginalInterface.java(3): //Step 2 - we extracted the interface and named it OriginalInterface
+\Pattern\src\com\structural\proxy\OriginalProxyClass.java(3): //Step 3 the original proxy class
+\Pattern\src\com\structural\proxy\OriginalProxyClass.java(4): //Step 5.a - implement the interface
+\Pattern\src\com\structural\proxy\OriginalProxyClass.java(7): //Step 4 - variable of the OriginalClass
+\Pattern\src\com\structural\proxy\OriginalProxyClass.java(10): //Step 5.b - create the logic to initialize the object
+\Pattern\src\com\structural\proxy\OriginalProxyClass.java(18): //Step 5.c this step should not be there, hence commented
+\Pattern\src\com\structural\proxy\OriginalProxyClass.java(26): //Step 5.d.i - initialize the originalObject if not already done.
+\Pattern\src\com\structural\proxy\OriginalProxyClass.java(28): //Step 5.d.ii, iii, iv - call the same method of originalObject, delegate the call, retrieve the output
+\Pattern\src\com\structural\proxy\OriginalProxyClass.java(30): //Step 5.e - relay the info
+\Pattern\src\com\structural\proxy\OriginalProxyClass.java(37): //Step 5.e - Repeat for all other steps

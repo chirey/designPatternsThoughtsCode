@@ -1,0 +1,5 @@
+1.	The naming - 
+In standard terms base class of the model hierarchy is called the Abstraction. 
+The subclasses are called the Refined abstractions. 
+The logic interface is called the Implementations. 
+The logic classes are called the Concrete implementations. 

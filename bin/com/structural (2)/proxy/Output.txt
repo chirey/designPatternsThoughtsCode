@@ -1,0 +1,7 @@
+ExternalClass.java - The default constructor has been called, normally it is here the objects are intialized. But using proxy we shall initialize this when the methods are called on the object and not before.
+OriginalProxyClass.java - in default constructor
+OriginalProxyClass.java - in methodA
+OriginalClass.java - default constructor has been called and object has been created
+OriginalClass.java: methodA is called
+OriginalProxyClass.java - in methodB
+OriginalClass.java: methodB is called
